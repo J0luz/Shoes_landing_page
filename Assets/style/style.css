@@ -1,0 +1,109 @@
+*{
+  padding:0;
+  margin:0;
+  vertical-align:baseline;
+  list-style:none;
+  border:0;
+  font-family: 'Roboto', sans-serif;
+  
+}
+header{
+  margin-top: 2rem;
+  position: fixed; 
+  z-index: 999;
+  width: 100%;
+}
+#nav{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: 3.75rem;
+  background-color: transparent;
+  
+}
+ul{
+  display: flex;
+}
+li{
+margin-right: 5.5rem;
+padding: .5rem;
+font-size: 18px;
+}
+
+#logo{
+  height: 2.2rem;
+  width: 3.25rem;
+}
+
+
+#principal-section{
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1.35fr 2fr;
+  height: 100vh;
+}
+#left-side{
+  display: flex;
+  padding: 1rem;
+  margin-left: 6.93rem;
+}
+#announcement{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#tittle-announcement h1{
+  text-align: left;
+  line-height: 4rem;
+  font-size: 50px;
+  font-weight: 700;
+}
+#subtittle-announcement h5{
+  font-weight:400;
+  font-size: 18px;
+  color:#9c9c9c;
+}
+#price p {
+  margin-top:.5rem;
+  font-size: 22px;
+}
+#announcement button{
+  color:aliceblue;
+  font-weight:700;
+  background-color: red;
+  padding: 1.5rem;
+  width: 17rem;
+  border-radius: 2rem;
+
+  margin-top: 1rem;
+}
+#right-side{
+ display: flex;
+ flex-direction: column;
+ justify-content: space-evenly;
+ align-items: center;
+  background-color: #9c9c9c;
+  border-radius: 0rem 0rem 0rem 1.5rem;
+}
+
+.toggle{
+  margin-top: 5rem;
+  height: 28rem;
+  padding:0px;
+}
+#galeria{
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+ 
+  margin-bottom: 1rem;
+}
+#galeria img{
+  height: 8rem;
+  border-radius: .2rem;
+}
+
+
+
+
