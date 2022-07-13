@@ -9,10 +9,12 @@
 }
 header{
   margin-top: 2rem;
+  padding-bottom: 1rem;
   position: fixed; 
   z-index: 999;
   width: 100%;
 }
+
 #nav{
   display: flex;
   justify-content: space-evenly;
@@ -21,26 +23,31 @@ header{
   background-color: transparent;
   
 }
-ul{
+header ul{
   display: flex;
 }
-li{
+header li{
 margin-right: 5.5rem;
 padding: .5rem;
 font-size: 18px;
 }
-
+header input {
+  height: 1.5rem;
+  width: 13rem;
+  border-radius: 2rem;
+  align-items: center;
+  padding-left: .5rem
+}
 #logo{
   height: 2.2rem;
   width: 3.25rem;
 }
 
-
 #principal-section{
-  height: 100vh;
+  height: 90vh;
   display: grid;
   grid-template-columns: 1.35fr 2fr;
-  height: 100vh;
+  
 }
 #left-side{
   display: flex;
@@ -81,29 +88,73 @@ font-size: 18px;
 #right-side{
  display: flex;
  flex-direction: column;
- justify-content: space-evenly;
- align-items: center;
-  background-color: #9c9c9c;
-  border-radius: 0rem 0rem 0rem 1.5rem;
+ justify-content:center;
+ align-items:center;
+background-color: #9c9c9c;
+ border-radius: 0rem 0rem 0rem 1.5rem;
 }
 
 .toggle{
-  margin-top: 5rem;
-  height: 28rem;
-  padding:0px;
+  margin-top: 4rem;
+  height: 22rem;
+  
 }
 #galeria{
-  display: flex;
+  display:flex;
   justify-content: space-evenly;
+  
   width: 100%;
- 
   margin-bottom: 1rem;
 }
 #galeria img{
-  height: 8rem;
-  border-radius: .2rem;
+  height: 9rem;
+ 
 }
-
+#down-side{
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  margin-top: 1.1rem;
+  height: 8rem;
+}
+#down-side img{
+  
+  height: 9rem;
+}
+#down-side ul{
+  margin-left: 2rem;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#down-side li{
+  display: flex;
+  padding: 0rem 2rem 0rem 2rem;
+  height: 8rem;
+  align-items: center;
+}
+#down-side span li{
+  color: aliceblue;
+  width: 14rem;
+  background-color: black;
+ 
+}
+.scroll{
+  align-content: center;
+  background-color: #302f2f;
+  color: aliceblue;
+  margin-top: 0rem;
+  height: 1.5rem;
+  padding-top: 1rem;
+}
+/*
+→fazer os befores e os hovers da página
+→fazer um root com as cores dos elementos
+→ mudar as imagens do tênis
+→colocar os icons na página
+*/  
 
 
 
