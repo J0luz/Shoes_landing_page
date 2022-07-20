@@ -5,6 +5,7 @@
   list-style:none;
   border:0;
   font-family: 'Roboto', sans-serif;
+  text-decoration: none;
   
 }
 header{
@@ -13,6 +14,7 @@ header{
   position: fixed; 
   z-index: 999;
   width: 100%;
+  transition: 120ms;
 }
 
 #nav{
@@ -23,13 +25,19 @@ header{
   background-color: transparent;
   
 }
+
 header ul{
   display: flex;
 }
 header li{
 margin-right: 5.5rem;
 padding: .5rem;
+
+}
+header li a{ 
 font-size: 18px;
+ text-decoration: none;
+ color: #302f2f;
 }
 header input {
   height: 1.5rem;
@@ -42,6 +50,44 @@ header input {
   height: 2.2rem;
   width: 3.25rem;
 }
+
+.menu li{
+  position:relative;
+  float:left;
+   
+  }
+  
+
+  .content-dropdown{
+  position: absolute;
+  
+  text-align: center;
+  margin-top: .5rem;
+  background-color: #fff;
+  width: 20rem;
+  height: 20rem;
+  height: auto;
+  display: none;
+
+  border: 1px solid #c4c4c4;
+}
+
+.menu li:hover ul, .content-dropdown ul{ display:block;}
+ .son-option{
+  width: 19rem;
+  border-bottom: 1px solid #c4c4c4;
+  background-color: rgba(252, 252, 252, 0.904);
+ }
+
+.menu li ul li a {
+  color:black;
+  /* padding:.2rem; */
+ 
+  
+  font-size: 16px;
+  
+}
+
 
 #principal-section{
   height: 90vh;
@@ -119,7 +165,7 @@ background-color: #9c9c9c;
 }
 #down-side img{
   
-  height: 9rem;
+  height: 8rem;
 }
 #down-side ul{
   margin-left: 2rem;
@@ -144,11 +190,19 @@ background-color: #9c9c9c;
 .scroll{
   align-content: center;
   background-color: #302f2f;
-  color: aliceblue;
   margin-top: 0rem;
   height: 1.5rem;
   padding-top: 1rem;
+
+  transition: 150ms;
+  box-shadow: 0px 3px 3px black;
 }
+.top_drop{
+  color:#fff;
+  transition: 120ms; 
+ 
+}
+
 /*
 →fazer os befores e os hovers da página
 →fazer um root com as cores dos elementos
