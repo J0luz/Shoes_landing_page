@@ -24,6 +24,20 @@ function addClass() {
   }
 }
 
+// pop-up do vídeo:
+const container_video = document.querySelector('#Container_video')
+const displayVideo = document
+  .querySelector('#video-thumb')
+  .addEventListener('click', () => {
+    container_video.classList.add('display-video')
+  })
+//baixar o vídeo para fazer o controle do conteúdo melhor.
+const displayNone = document
+  .querySelector('.fa-xmark')
+  .addEventListener('click', () => {
+    container_video.classList.remove('display-video')
+  })
+
 /*fazer o dropdanw dos itens */
 /*adicionar um vídeo de propaganda na pag e fazer
 um modal de exibição

@@ -13,6 +13,8 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <!--icons-->
+    <script src="https://kit.fontawesome.com/c744560497.js" crossorigin="anonymous"></script>
     <title>Document</title>
   </head>
   <body>
@@ -106,19 +108,30 @@
             />
           </div>
         </div>
+       
+        
+        </div>
       </container>
       <div id="down-side">
         <img
+          id="video-thumb"
           src="../images/assets/img-video.png"
           alt="imagem propaganda em vídeo"
         />
-        <ul>
+        
+        <ul class="social-buttons">
           <li>Facebook</li>
           <li>Instagram</li>
           <li>Twitter</li>
-          <span><li>Explore mais</li></span>
+          <span><li id= "xprl">Explore mais</li> <p><i class="fa-solid fa-arrow-right-long"></i></p></span>
         </ul>
       </div>
+      
+      <div id="Container_video" class="popUp-video">
+        <p class = "icon"><i class="fa-solid fa-xmark fa-3x"></i></p>
+        <iframe id = "video" width="853" height="480" src="https://www.youtube.com/embed/864B4rzoPog" title="Epic Adidas shoe commercial concept | product video B-ROLL" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        
+    </div>
     </main>
   </body>
   <script src="../../script/main.js"></script>
